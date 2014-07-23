@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FanViewController : UIViewController
+#import <CoreLocation/CoreLocation.h>
+#import <CoreLocation/CLLocationManagerDelegate.h>
+@interface FanViewController : UIViewController<CLLocationManagerDelegate>
+{
+    CLLocationManager *locationManager;
+    double longitude;
+    double latitude;
+    double altitude;
+}
 
 @end

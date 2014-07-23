@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748F78AF1976A4B900816D02 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F78AE1976A4B900816D02 /* TestTableViewController.m */; };
 		74ABAD7C1962E5FD0037A668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABAD7B1962E5FD0037A668 /* Foundation.framework */; };
 		74ABAD7E1962E5FD0037A668 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABAD7D1962E5FD0037A668 /* CoreGraphics.framework */; };
 		74ABAD801962E5FD0037A668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABAD7F1962E5FD0037A668 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		74ABAD9D1962E5FD0037A668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABAD7F1962E5FD0037A668 /* UIKit.framework */; };
 		74ABADA51962E5FD0037A668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74ABADA31962E5FD0037A668 /* InfoPlist.strings */; };
 		74ABADA71962E5FD0037A668 /* whereamiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ABADA61962E5FD0037A668 /* whereamiTests.m */; };
+		74ABADB11962E73C0037A668 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABADB01962E73C0037A668 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		748F78AD1976A4B900816D02 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		748F78AE1976A4B900816D02 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 		74ABAD781962E5FD0037A668 /* whereami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whereami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ABAD7B1962E5FD0037A668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74ABAD7D1962E5FD0037A668 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		74ABADA21962E5FD0037A668 /* whereamiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whereamiTests-Info.plist"; sourceTree = "<group>"; };
 		74ABADA41962E5FD0037A668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74ABADA61962E5FD0037A668 /* whereamiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whereamiTests.m; sourceTree = "<group>"; };
+		74ABADB01962E73C0037A668 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74ABADB11962E73C0037A668 /* CoreLocation.framework in Frameworks */,
 				74ABAD7E1962E5FD0037A668 /* CoreGraphics.framework in Frameworks */,
 				74ABAD801962E5FD0037A668 /* UIKit.framework in Frameworks */,
 				74ABAD7C1962E5FD0037A668 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		74ABAD7A1962E5FD0037A668 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74ABADB01962E73C0037A668 /* CoreLocation.framework */,
 				74ABAD7B1962E5FD0037A668 /* Foundation.framework */,
 				74ABAD7D1962E5FD0037A668 /* CoreGraphics.framework */,
 				74ABAD7F1962E5FD0037A668 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				74ABAD8D1962E5FD0037A668 /* Main.storyboard */,
 				74ABAD901962E5FD0037A668 /* FanViewController.h */,
 				74ABAD911962E5FD0037A668 /* FanViewController.m */,
+				748F78AD1976A4B900816D02 /* TestTableViewController.h */,
+				748F78AE1976A4B900816D02 /* TestTableViewController.m */,
 				74ABAD931962E5FD0037A668 /* Images.xcassets */,
 				74ABAD821962E5FD0037A668 /* Supporting Files */,
 			);
@@ -253,6 +262,7 @@
 				74ABAD8C1962E5FD0037A668 /* FanAppDelegate.m in Sources */,
 				74ABAD921962E5FD0037A668 /* FanViewController.m in Sources */,
 				74ABAD881962E5FD0037A668 /* main.m in Sources */,
+				748F78AF1976A4B900816D02 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +467,7 @@
 				74ABADAC1962E5FD0037A668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74ABADAD1962E5FD0037A668 /* Build configuration list for PBXNativeTarget "whereamiTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				74ABADAF1962E5FD0037A668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
