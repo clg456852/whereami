@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67F3316B-1CC8-4DFC-9D90-219A8905BD01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>whereami</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>56FCB7BE-A756-42F8-9811-6D941F92929D</key>
+		<string>https://github.com/clg456852/whereami.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>whereami.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>56FCB7BE-A756-42F8-9811-6D941F92929D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/clg456852/whereami.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56FCB7BE-A756-42F8-9811-6D941F92929D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56FCB7BE-A756-42F8-9811-6D941F92929D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>whereami</string>
+		</dict>
+	</array>
+</dict>
+</plist>
